@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trustedStoreActivity">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/amazon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amazon "
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/bookfind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Finder "
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/amazon"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/bookbytr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Byte "
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/bookfind"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/bookrush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text Book Rush "
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/bookbytr"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/student"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student2Student "
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/bookrush"
+        android:layout_marginTop="10dp"
+        />
+</RelativeLayout>

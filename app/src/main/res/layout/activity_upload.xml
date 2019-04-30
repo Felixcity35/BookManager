@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/booksimage"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="imagebook"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/txtPdfName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter Boook Name "
+        android:layout_below="@+id/image"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:textSize="20sp"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPdfName"
+        android:text="Upload Book"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

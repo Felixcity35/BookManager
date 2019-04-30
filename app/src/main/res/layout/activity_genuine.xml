@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GenuineActivity">
+
+    <ImageView
+        android:id="@+id/correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="genuine"
+        android:src="@drawable/correctbook"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/genuine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Genuine "
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/correct"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/genuine_message"
+        android:layout_below="@+id/genuine"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/mainmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="go back to main menu"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FakeActivity">
+
+
+    <ImageView
+        android:id="@+id/fakeimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fakebook"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        />
+
+    <TextView
+        android:id="@+id/faketext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ops!! Pirated Book"
+        android:textSize="40sp"
+        android:layout_below="@+id/fakeimage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to report BookShop"
+        android:layout_below="@+id/faketext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/mainmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="goto main Menu"
+        android:layout_below="@+id/report"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        />
+
+
+
+</RelativeLayout>

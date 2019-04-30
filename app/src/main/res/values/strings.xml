@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BookManager</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="subtitle">The Following Terms and Condition guide this appplication</string>
+    <string name="ruleOne">1) We will use your device as a means of Advertisement</string>
+    <string name="ruletwo">2) The Barcode  should show you a genuine screen </string>
+    <string name="rulethree">3) Dont Spam the database Upload only reasonable books </string>
+
+    <string name="genuine_message">You Book Is Original.thanks for using Book Manager.</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Book Manager</string>
+    <string name="nav_header_subtitle">Bookmanager@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="about">BookManager is a multi purpose Application its helps to check if a book is pirated by scanning the manufacture qr or bar code And it also serve as a means to allow student develope their writing skills by, uploading their own books to the database and their friends or school mate can download it and read.  </string>
+    <string name="welcome">Welcome to Book Manager Here you Can develope your Writing Skills by uploading your books and your class mate can download your book and read. dont be a secret writer anymore bookmanager can make you popular just in few steps  : \n 1. Swipe on the left side of your phone or press the drawer icon on the top left corner of your phone \n 2. Click on books Section . \n 3. Click on upload button and choose your book. \n NOTE : Please Your book should be in pdf Format and You must have an Internet Connection.</string>
+</resources>

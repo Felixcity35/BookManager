@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsAndConditionActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and Condition "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="4dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/title"
+        />
+
+    <TextView
+        android:id="@+id/ruleone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ruleOne"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/subtitle"
+        />
+    <TextView
+        android:id="@+id/ruletwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ruletwo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/ruleone"
+        />
+    <TextView
+        android:id="@+id/rulethree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rulethree"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/ruletwo"
+        />
+
+    <Button
+        android:id="@+id/agree_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I Agree"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="8dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        />
+    <Button
+        android:id="@+id/disagree_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I disAgree"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+
+</RelativeLayout>

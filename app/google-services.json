@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "642856169522",
+    "firebase_url": "https://bookmanager-9e199.firebaseio.com",
+    "project_id": "bookmanager-9e199",
+    "storage_bucket": "bookmanager-9e199.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642856169522:android:85e6bc6632a30b96",
+        "android_client_info": {
+          "package_name": "com.example.felixcity.bookmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642856169522-pbb9iqa1dlbbsmo50ra9h33p15f7d7dd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.felixcity.bookmanager",
+            "certificate_hash": "0467998ecbeaabef9045808edfd57c2304e4ecad"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFueFsJLbx3Hp4MOszU9ERbIKBnz4LRrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642856169522-6750j1avfbj19uo8bac1fphnhmnj776v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

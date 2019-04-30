@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_piracy"
+            android:icon="@drawable/scanner"
+            android:title="Book Piracy Check" />
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/books"
+            android:title="Books section" />
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/store"
+            android:title="Trusted Online Store" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About" />
+    </group>
+
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+</menu>

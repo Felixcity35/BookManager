@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadBooksActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Books Section"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/booksimage"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="imagebook"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/upload_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Upload book "
+        android:layout_below="@+id/image"
+        android:layout_marginTop="30dp"
+        android:padding="12dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        />
+    <Button
+        android:id="@+id/download_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Book"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@android:color/white"
+        android:layout_below="@+id/upload_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

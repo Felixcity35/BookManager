@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/regpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration Page"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="logo"
+        android:src="@drawable/logo"
+        android:layout_below="@+id/regpage"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/logo"
+
+        />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/name"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/email"
+        />
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/password"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone Number"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/address"
+        />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@android:color/white"
+        />
+
+
+</RelativeLayout>
